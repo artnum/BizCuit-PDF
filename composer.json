@@ -1,0 +1,22 @@
+{
+    "name": "artnum/bizcuit-pdf",
+    "description": "An extension to fpdf",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [{
+        "name": "Etienne Bagnoud",
+        "email": "etienne@artnum.ch",
+        "homepage": "https://artnum.ch",
+        "role": "Developper"
+    }],
+    "autoload": {
+        "psr-4": {"BizCuit\\": "src/"}
+    },
+    "require": {
+        "php": ">=8.2",
+        "setasign/tfpdf": "^1.8"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.15"
+    }
+}
